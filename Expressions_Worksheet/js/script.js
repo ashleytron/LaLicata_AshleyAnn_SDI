@@ -25,3 +25,12 @@ var shopTotal = shopCost[0] + shopCost[1] + shopCost[2] + shopCost[3] + shopCost
 var shopAvg = shopTotal/5;//calcultion of average of array's contents
 console.log = 'You have spent a total $' + shopTotal + 'on groceries over 5 weeks. That is an average of $' + shopAvg + 'per week.';//print results to console
 
+//Discounts//
+var origPrice = 100; //declare variable for original price
+var disc = 15; //declare variable for discount percentage
+var itemDescr = 'printer'; //declare variable for item description
+var salesTax = 8; //declare variable for sales tax percentage
+var price = origPrice - (origPrice *(disc/100)); //declare variable for price calculation after discount
+var priceTax = price + (origPrice * (salesTax/100)); //declare variable for price calculation after discount and with sales tax
+console.log = 'Your ' + itemDescr + ' was originally $' + origPrice + ', but after a ' + disc + '% discount, it is now $' + price + ' without tax, and $' + priceTax + 'with tax.';
+
