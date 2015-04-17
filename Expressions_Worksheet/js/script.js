@@ -15,4 +15,9 @@ var pies = 10; //declare var for number of pies ordered
 var slicepPers = (slicePie * pies)/ppleParty;//variable for calculation for number of slices per person
 console.log = 'Each person ate ' + slicepPers + 'slice of pizza at the party'; //print results to console
 
-//
+//Slice of Pie Part II//
+var sparkySlice = slicePie * pies)%ppleParty; //declare var calculation for remainder of slices after division of slicepPer
+console.log = 'Sparky got ' + sparkySlice + 'slices of pizza.'; //print results to console
+
+//Average Shopping Bill//
+
