@@ -17,5 +17,14 @@ var discountPrice = fullPrice - (fullPrice * .25); //calculate discounted price 
 console.log(discountPrice); //print results to console
 var result = "The total price after discount is $" + discountPrice; //assign variable for result
 alert(result); //alerts user to result and total price
+var limits = [maxSpend, minSpend, totMax]; //Array of limits the customer has presented
+var underAmt = limits[0] - discountPrice; //using array to calculate and create new variable for later use
+console.log(underAmt); //print solution to console
+var overAmt = discountPrice - limits[1]; //using array to calculate and create new var for later
+console.log(overAmt); //print solution to console
+var exceed = (+limits[2]+ +maxSpend) - +discountPrice; //use array to calc and create new var
+console.log(exceed); //print solution to console
+
+
 
 
