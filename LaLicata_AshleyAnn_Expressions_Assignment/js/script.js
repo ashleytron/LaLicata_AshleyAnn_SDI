@@ -24,7 +24,10 @@ var overAmt = discountPrice - limits[1]; //using array to calculate and create n
 console.log(overAmt); //print solution to console
 var exceed = (+limits[2]+ +maxSpend) - +discountPrice; //use array to calc and create new var
 console.log(exceed); //print solution to console
+var savings = "You spend $" + underAmt + " less than your maximum that you wish to spend today, $" + overAmt + " more than your minimum desired amount and $" + exceed + " less than your total maximum."; //create variable for final savings calc
+alert(savings); //alert user to total savings
 
+//
 
 
 
