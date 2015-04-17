@@ -27,7 +27,11 @@ console.log(exceed); //print solution to console
 var savings = "You spend $" + underAmt + " less than your maximum that you wish to spend today, $" + overAmt + " more than your minimum desired amount and $" + exceed + " less than your total maximum."; //create variable for final savings calc
 alert(savings); //alert user to total savings
 
-//
+/* test 1 - max = $250, min = $200, totMax = $50, 1st shoe = $75, 2nd shoe = $195, caculated price after disc $146.25, Calculated that I spent $103.75 less than my max, $-53.75 more than my min and $153.75 less than my total max */
+/* test 2 - max = $300, min = $200, totMax = $100, 1st shoe = $100, 2nd shoe = $65, caculated price after disc $123.75, Calculated that I spent $176.25 less than my max, $-76.25 more than my min and $276.25 less than my total max */
+/* test 3 - max = $500, min = $300, totMax = $150, 1st shoe = $150, 2nd shoe = $200, caculated price after disc $300, Calculated that I spent $200 less than my max, $0 more than my min and $350 less than my total max */
+
+
 
 
 
