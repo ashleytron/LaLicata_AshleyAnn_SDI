@@ -11,3 +11,5 @@ var firstShoe = prompt("What is the price of the first shoe you would like to pu
 console.log(firstShoe); //print output to console
 var secondShoe = prompt("What is the price of the second shoe you would like to purchase?"); //Prompts user for information to utilize in calculation for second purchase, assign variable
 console.log(secondShoe); //print output to console
+var fullPrice= +firstShoe + +secondShoe; //Add both variables together and assign variable for FullPrice, use of addition
+console.log(fullPrice); //print output to console
