@@ -31,6 +31,8 @@ if(homePrice + renPrice <= minPrice) { //If the homePrice is less than or equal 
 }else if(homePrice + renPrice > maxPrice){ //if not, advise over price limit and advise not to buy
     console.log("Do not buy, you are over your maximum price"); //Print to console advise not to buy
     (homePrice + renPrice <= maxPrice) ? console.log("Go ahead and buy!") : console.log("Do not buy!"); //ternary conditional
+if (fullPrice >= minPrice && fullPrice <= maxPrice) { //string concatation
+    console.log("Go ahead and buy!")} //console output
 }
 
 
