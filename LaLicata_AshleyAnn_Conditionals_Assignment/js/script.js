@@ -18,3 +18,11 @@ if(renPrice = "0"){ //if field is left blank
     console.log("Oops! Please enter information"); //advise user to enter item
  }else console.log(renPrice); //otherwise, print input to console
 
+var homePrice = prompt("Please enter the price of the home you desire:"); //Asks user for input on price of desired home
+if(homePrice = "0"){ //if field is left blank
+    console.log("Oops! Please enter information"); //advise user to enter item
+}else console.log(homePrice); //otherwise, print input to console
+
+var fullPrice = homePrice + renPrice;
+
+
