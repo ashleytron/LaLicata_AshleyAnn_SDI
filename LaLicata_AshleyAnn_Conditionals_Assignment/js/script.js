@@ -25,4 +25,12 @@ if(homePrice = "0"){ //if field is left blank
 
 var fullPrice = homePrice + renPrice;
 
+//if the price of the desired home + renovation is less than or equal to minimum, print to the console "Go ahead and buy!"
+if(homePrice + renPrice <= minPrice) { //If the homePrice is less than or equal to the MinimumPrice, advise to buy
+    console.log("Go ahead and buy!"); //Print to console to buy
+}else if(homePrice + renPrice > maxPrice){ //if not, advise over price limit and advise not to buy
+    console.log("Do not buy, you are over your maximum price"); //Print to console advise not to buy
+    (homePrice + renPrice <= maxPrice) ? console.log("Go ahead and buy!") : console.log("Do not buy!"); //ternary conditional
+}
+
 
