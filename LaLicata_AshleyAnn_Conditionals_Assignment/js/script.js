@@ -13,3 +13,8 @@ if(maxPrice = "0") { //if field is left blank
     console.log("Oops! Please enter information");//advise user to enter item
 }else console.log(maxPrice); //otherwise, print input to console
 
+var renPrice = prompt("Please enter the amount you would liek to spend on renovations:"); //Asks user for input on amount to spend on renovations
+if(renPrice = "0"){ //if field is left blank
+    console.log("Oops! Please enter information"); //advise user to enter item
+ }else console.log(renPrice); //otherwise, print input to console
+
