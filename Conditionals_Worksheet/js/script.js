@@ -40,3 +40,14 @@ if (grade >= aPlus){
 }else if(fReg <= grade < dReg){
     console.log ("You have received and F!");
 }
+
+//Group 3 - Movie Ticket Price
+var regPrice = 12.00;
+var discPrice = 7.00;
+var movTime = prompt("Welcome! What time is the movie you would like to see?");
+var custAge = prompt("How old are you?");
+if (custAge => 55){
+    console.log
+}
+
+
