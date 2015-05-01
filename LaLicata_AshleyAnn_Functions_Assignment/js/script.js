@@ -26,13 +26,15 @@ var calcCubic = function(l,w,h) {//anonymous function
 }
 
 var c = calcCubic(l,w,h); //define variable and function
-console.log("Your item is " + c + " cubic feet");//concantation
+console.log("Your item is " + c + " cubic feet");//concatenation
 
-function fitShip(){ //function
-    if(c < "300") { //if calcCubic is less than equal to 100
-    console.log("The item ships!"); //item ships and print to console
-    }else if(c > "300") {
-        console.log("Your item does not ship, sorry!");
-    } //Record output to console
-}
+
+if(c < '300') { //if calcCubic is less than equal to 100
+    function fitShip(){
+       alert("The item ships!");}//item ships and print to console
+    }
+fitShip();
+// 2,4,4 
+// 5,2,5
+// 2,10,10
 
