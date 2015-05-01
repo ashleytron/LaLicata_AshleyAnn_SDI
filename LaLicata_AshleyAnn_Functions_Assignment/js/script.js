@@ -34,7 +34,7 @@ if(c < '300') { //if calcCubic is less than equal to 100
        alert("The item ships!");}//item ships and print to console
     }
 fitShip();
-// 2,4,4 
-// 5,2,5
-// 2,10,10
+// 2,4,4, 32 cubic feet, the item ships
+// 5,2,5, 50 cubic feet, the item ships
+// 2,10,10 1600 cubic fee
 
